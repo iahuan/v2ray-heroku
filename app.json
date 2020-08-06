@@ -9,7 +9,7 @@
         },
         "PATH": {
             "description": "V2Ray PATH",
-            "value": ""
+            "value": "/"
         }
     },
     "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
