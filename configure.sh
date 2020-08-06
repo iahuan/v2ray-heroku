@@ -21,7 +21,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "${UUID}",
+                        "id": "$UUID",
                         "alterId": 64
                     }
                 ],
@@ -30,7 +30,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
             "streamSettings": {
                 "network": "ws",
                  "wsSettings": {
-                    "path": "${PATH}"
+                    "path": "ray"
                 }
             }
         }
